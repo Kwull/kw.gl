@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kw.gl - Contact</title>
+    <style>
+        :root {
+            --color-bg: #1a1f2e;
+            --color-surface: #2d3548;
+            --color-text: #f1f5f9;
+            --color-text-secondary: #cbd5e1;
+            --color-accent: #5c9fe3;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #1a1f2e 0%, #2d3548 100%);
+            color: var(--color-text);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: var(--color-surface);
+            border-radius: 24px;
+            padding: 48px 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .avatar {
+            width: 80px;
+            height: 80px;
+            background: var(--color-accent);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px;
+            font-size: 40px;
+            font-weight: 600;
+            color: var(--color-bg);
+        }
+
+        .name {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--color-text);
+        }
+
+        .identifier {
+            font-size: 14px;
+            color: var(--color-text-secondary);
+            font-family: 'Courier New', monospace;
+            margin-bottom: 32px;
+            word-break: break-all;
+        }
+
+        .qr-container {
+            background: white;
+            padding: 20px;
+            border-radius: 16px;
+            display: inline-block;
+            margin-bottom: 24px;
+        }
+
+        .qr-code {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            display: block;
+        }
+
+        .instructions {
+            font-size: 15px;
+            line-height: 1.6;
+            color: var(--color-text-secondary);
+            margin-top: 24px;
+        }
+
+        .instructions strong {
+            color: var(--color-text);
+        }
+
+        .arrow {
+            color: var(--color-accent);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 32px 24px;
+            }
+
+            .name {
+                font-size: 28px;
+            }
+
+            .identifier {
+                font-size: 12px;
+            }
+
+            .qr-container {
+                padding: 16px;
+            }
+
+            .qr-code {
+                max-width: 260px;
+            }
+
+            .instructions {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .container {
+                padding: 24px 16px;
+            }
+
+            .avatar {
+                width: 64px;
+                height: 64px;
+                font-size: 32px;
+            }
+
+            .name {
+                font-size: 24px;
+            }
+
+            .qr-code {
+                max-width: 220px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="avatar">K</div>
+        <h1 class="name">Kw.gl</h1>
+        <div class="identifier">&lt;e33cf66c...a220a0b1&gt;</div>
+        
+        <div class="qr-container">
+            <img src="qr.png" alt="MeshCore Contact QR Code" class="qr-code">
+        </div>
+        
+        <div class="instructions">
+            Scan QR code to add this contact.<br>
+            <strong>Menu</strong> <span class="arrow">→</span> <strong>Add Contact</strong> <span class="arrow">→</span> <strong>Scan QR Code</strong>
+        </div>
+    </div>
+</body>
+</html>
+
