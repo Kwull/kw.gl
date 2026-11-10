@@ -1,0 +1,15 @@
+# kw.gl
+
+> Building with JARVIS: small home projects, with the wrong turns left in. A personal blog by Uladzimir Kazakevich about small home-automation projects built with Claude, an AI assistant, working as the author's "JARVIS": Home Assistant, ESP32 and ESPHome, RS-485, MQTT, 3D printing.
+
+Each post tells a whole project from the problem to the result, in the first person, with the wrong turns left in: the prompts, what the AI got wrong, the hardware and settings that worked, configuration snippets and real data from the house. Every post is also available as Markdown (the post URL followed by `index.md`), and all posts are in one file at https://kw.gl/llms-full.txt.
+
+## Posts
+
+- [Learning my ventilation's secret language](https://kw.gl/posts/hrv/index.md): The second half of my JARVIS weekend. The company behind my ventilation's app went bankrupt, and the only control left was a panel on the wall. On Sunday Claude and I decoded the panel's cable, put a small Wi-Fi adapter on a socket nobody used, and now Home Assistant sets the fan speed from the CO2 in the rooms. (2026-11-09)
+- [Reading a water meter I'm not allowed to touch](https://kw.gl/posts/water-meter/index.md): The city's sealed radio sits on my water meter and covers part of the digits. A small camera in a 3D-printed holder reads them anyway, and Home Assistant fixes the one digit the camera keeps getting wrong. (2026-11-07)
+
+## Optional
+
+- [All posts in one file](https://kw.gl/llms-full.txt): the full text of every post as Markdown
+- [RSS feed](https://kw.gl/index.xml): new posts
