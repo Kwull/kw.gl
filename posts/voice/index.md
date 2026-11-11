@@ -3,7 +3,7 @@
 > One day of comparing speech-to-text, voices and AI 'brains' for a Home Assistant voice assistant, with Claude doing the measuring. The fast, natural setup on a Mac Studio lost to an old Dell OptiPlex: GigaAM turns speech into text in 0.2–0.3 s, Silero speaks in about 0.2 s, my own sentences answer most requests at home, and ChatGPT (or a small local model when the internet is down) only gets what's left.
 
 - URL: https://kw.gl/posts/voice/
-- Date: 2026-10-24
+- Date: 2026-11-11
 - Author: Uladzimir Kazakevich
 - Tags: home-assistant, voice-assistant, voice-pe, speech-to-text, text-to-speech, silero, gigaam, whisper, chatgpt, local-llm, claude
 
